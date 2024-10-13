@@ -136,6 +136,8 @@ function Thumbnails({
             key={image.img}
           >
             <Image
+              quality={90}
+              priority
               height={1000}
               width={1000}
               src={image.img}
